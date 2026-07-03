@@ -16,7 +16,7 @@ spec:
       containers:
       - name: flask-backend
         # JENKINS WILL DYNAMICALLY MODIFY THIS EXACT LINE
-        image: rahamshaik/flask-backend:v1.0.11
+        image: rahamshaik/flask-backend:v1.0.3
         ports:
         - containerPort: 5000
         resources:
